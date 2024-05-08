@@ -25,3 +25,4 @@ Afterwards, the platform plans to improve IBC by adding new capabilities for int
 * On-chain governance: managed by a new DAO framework with support for sub-DAOs
 * Licensing model: a unique approach that allows open-source code to be monetized by default
 * Interoperability and shared security: IBCv1, IBCx, ICS1, ICSx
+ 
