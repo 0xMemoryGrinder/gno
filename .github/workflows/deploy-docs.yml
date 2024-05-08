@@ -1,10 +1,11 @@
 name: deploy docs on gnolang/docs.gno.land repository
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - "docs/**"
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - master
+#    paths:
+#      - "docs/**"
 
 jobs:
   trigger-netlify-docs-deploy:

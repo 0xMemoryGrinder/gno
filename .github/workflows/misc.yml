@@ -18,8 +18,8 @@ on:
       - "misc/genstd/**.go"
       - "misc/Makefile"
       - ".github/workflows/misc.yml"
-  push:
-    branches: [ "master" ]
+#  push:
+#    branches: [ "master" ]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}

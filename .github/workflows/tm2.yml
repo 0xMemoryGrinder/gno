@@ -17,8 +17,8 @@ on:
       - "tm2/Makefile"
       - "tm2/**.go"
       - ".github/workflows/tm2.yml"
-  push:
-    branches: [ "master" ]
+#  push:
+#    branches: [ "master" ]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
